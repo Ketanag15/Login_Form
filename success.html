@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Successful</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="login-container">
+        <h2>Login Successful!</h2>
+        <p>Welcome to the dashboard. This is some dummy information to confirm a successful login.</p>
+    </div>
+
+    <script>
+        // Retrieve email and password from localStorage
+        const email = localStorage.getItem('email');
+        const password = localStorage.getItem('password');
+
+        // Debugging logs
+        if (email && password) {
+            console.log('Email:', email);
+            console.log('Password:', password);
+        } else {
+            console.error('No email or password found in localStorage');
+        }
+    </script>
+</body>
+</html>
