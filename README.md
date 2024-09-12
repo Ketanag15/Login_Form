@@ -10,10 +10,10 @@ Features
 
 This is the Project Structure.
 
-  index.html       # The main login page
-  success.html     # The page displayed after a successful login
-  styles.css       # Contains all the styling for the login form
-  script.js        # Contains all the JavaScript logic for validation and API calls
+  index.html    - The main login page.
+  success.html  - The page is displayed after a successful login.
+  styles.css    - Contains all the styling for the login form.
+  script.js     - Contains all the JavaScript logic for validation and API calls.
 
 To run this project.
 
